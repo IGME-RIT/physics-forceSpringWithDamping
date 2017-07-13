@@ -248,8 +248,8 @@ void init()
 	glEnable(GL_DEPTH_TEST);
 
 	//Create shader program
-	std::string vertShader = readShader("VertexShader.glsl");
-	std::string fragShader = readShader("FragmentShader.glsl");
+	std::string vertShader = readShader("../VertexShader.glsl");
+	std::string fragShader = readShader("../FragmentShader.glsl");
 	vertex_shader = createShader(vertShader, GL_VERTEX_SHADER);
 	fragment_shader = createShader(fragShader, GL_FRAGMENT_SHADER);
 
